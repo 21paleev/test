@@ -1,0 +1,53 @@
+.button {
+	color: #1f1d1d;
+	font-size: (15 * 0.052083 * 1vw);
+	font-weight: 400;
+	line-height: (24 * 0.052083 * 1vw);
+	vertical-align: center;
+	vertical-align: center;
+	border-style: none;
+	padding-left: (56 * 0.052083 * 1vw);
+	box-shadow: 0 2px 2px 0 rgba(235, 234, 234, 1.8);
+	width: calc(229 * 0.052083 * 1vw);
+	height: calc(62 * 0.052083 * 1vw);
+	border-radius: calc(30 * 0.052083 * 1vw);
+	background-color: #fefcfb;
+}
+
+.main__button {
+	text-shadow: 0 1px 5px rgba(210, 110, 116, 0.49);
+	color: #ffffff;
+	text-align: left;
+	font-size: calc(14 * 0.052083 * 1vw);
+	font-weight: 400;
+	text-transform: uppercase;
+	vertical-align: center;
+	width: calc(371 * 0.052083 * 1vw);
+	height: calc(79 * 0.052083 * 1vw);
+	border-radius: calc(39 * 0.052083 * 1vw);
+	border-style: none;
+	background-image: linear-gradient(to top, rgba(241, 153, 157, 0.47) 0%, rgba(252, 182, 182, 0.99) 98%, #fcb6b6 100%);
+	padding-left: (41 * 0.052083 * 1vw);
+	box-shadow: 0 2px 2px 0 rgba(215, 116, 122, 1.8);
+}
+
+.button__form {
+	text-shadow: 0 1px 5px rgba(210, 110, 116, 0.49);
+	color: #ffffff;
+	text-align: left;
+	font-size: calc(18 * 0.052083 * 1vw);
+	font-weight: 400;
+	text-transform: uppercase;
+	vertical-align: center;
+	width: calc(481 * 0.052083 * 1vw);
+	height: calc(70 * 0.052083 * 1vw);
+	border-radius: calc(35 * 0.052083 * 1vw);
+	border-style: none;
+	background-image: linear-gradient(to top, rgba(241, 153, 157, 0.47) 0%, rgba(252, 182, 182, 0.99) 98%, #fcb6b6 100%);
+	padding-left: (68 * 0.052083 * 1vw);
+	box-shadow: 0 2px 2px 0 rgba(215, 116, 122, 1.8);
+}
+
+.button:hover {
+	cursor: pointer;
+}

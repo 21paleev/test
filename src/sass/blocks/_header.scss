@@ -1,0 +1,155 @@
+.header {
+	width: calc(1530 * 0.052083 * 1vw);
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	margin-bottom: calc(15 * 0.052083 * 1vw);
+
+	&__logo {
+		width: calc(280 * 0.052083 * 1vw);
+		margin-right: calc(44 * 0.052083 * 1vw);
+
+		img {
+			width: 100%;
+		}
+	}
+
+	&__official {
+		width: calc(144 * 0.052083 * 1vw);
+		color: #282828;
+		font-size: calc(14 * 0.052083 * 1vw);
+		font-weight: 400;
+		margin-right: calc(139 * 0.052083 * 1vw);
+	}
+
+	&__map {
+		width: calc(70 * 0.052083 * 1vw);
+		margin-right: calc(23 * 0.052083 * 1vw);
+
+		img {
+			width: 100%;
+		}
+	}
+
+	&__contacts {
+		width: calc(207 * 0.052083 * 1vw);
+		color: #282828;
+		font-size: calc(16 * 0.052083 * 1vw);
+		font-weight: 400;
+		line-height: calc(21 * 0.052083 * 1vw);
+		margin-right: calc(74 * 0.052083 * 1vw);
+	}
+
+	&__contacts-title {
+		font-weight: 700;
+		line-height: calc(18 * 0.052083 * 1vw);
+	}
+
+	a {
+		color: #ff6078;
+		font-size: calc(12 * 0.052083 * 1vw);
+		font-weight: 400;
+		text-transform: uppercase;
+		margin-top: calc(17 * 0.052083 * 1vw);
+		display: block;
+	}
+
+	a:hover {
+		text-decoration: underline;
+		color: #ff6078;
+	}
+
+	&__over {
+		width: calc(273 * 0.052083 * 1vw);
+		margin-right: calc(64 * 0.052083 * 1vw);
+		color: #282828;
+		font-size: calc(12 * 0.052083 * 1vw);
+		font-weight: 400;
+		line-height: calc(21 * 0.052083 * 1vw);
+	}
+
+	&__wrap-phone,
+	&__wrap-clock {
+		display: flex;
+		align-items: center;
+	}
+
+	&__img-phone,
+	&__img-clock {
+		position: relative;
+		width: calc(35 * 0.052083 * 1vw);
+		height: calc(35 * 0.052083 * 1vw);
+		box-shadow: 0 3px 20px rgba(68, 68, 68, 0.11);
+		background-color: #ffffff;
+		border-radius: 50%;
+		margin-right: calc(11 * 0.052083 * 1vw);
+	}
+
+	&__img-phone img,
+	&__img-clock img {
+		position: absolute;
+		width: calc(15 * 0.052083 * 1vw);
+		top: calc(50% - (15 * 0.052083 / 2 * 1vw));
+		left: calc(50% - (15 * 0.052083 / 2 * 1vw));
+	}
+
+	&__call::before {
+		content: "";
+		display: inline-block;
+		width: calc(6 * 0.052083 * 1vw);
+		height: calc(6 * 0.052083 * 1vw);
+		box-shadow: 0 0 7px rgba(79, 160, 55, 0.61);
+		background-color: #27b24b;
+		margin-right: calc(9 * 0.052083 * 1vw);
+	}
+
+	&__phone {
+		margin-bottom: calc(21 * 0.052083 * 1vw);
+	}
+
+	&__phone a {
+		font-size: calc(24 * 0.052083 * 1vw);
+		line-height: calc(18 * 0.052083 * 1vw);
+		color: #282828;
+	}
+
+	&__phone a:hover {
+		text-decoration: underline;
+		color: #282828;
+	}
+
+	&__clock {
+		font-size: calc(16 * 0.052083 * 1vw);
+		font-weight: 400;
+		line-height: calc(21 * 0.052083 * 1vw);
+
+		span {
+			font-weight: 700;
+		}
+	}
+
+	&__wrap-clock {
+		display: flex;
+		align-items: center;
+	}
+
+	&__button {
+		position: absolute;
+
+	}
+
+
+}
+
+.button__wrap {
+	width: calc(229 * 0.052083 * 1vw);
+	height: calc(62 * 0.052083 * 1vw);
+	position: relative;
+
+	img {
+		width: calc(20 * 0.052083 * 1vw);
+		position: absolute;
+		top: calc(50% - (20 * 0.052083 / 2 * 1vw));
+		left: calc(26 * 0.052083 * 1vw);
+	}
+}
