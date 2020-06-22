@@ -1,4 +1,302 @@
 @media (max-width: 767px) {
-	
+	.button {
+		font-size: 10px;
+		line-height: calc(24 * 0.4 * 1px);
+		padding-left: calc(56 * 0.4 * 1px);
+		width: calc(229 * 0.4 * 1px);
+		height: calc(62 * 0.4 * 1px);
+		border-radius: calc(30 * 0.4 * 1px);
+	}
+
+	.main__button {
+		font-size: 10px;
+		width: calc(371 * 0.4 * 1px);
+		height: calc(79 * 0.4 * 1px);
+		border-radius: calc(39 * 0.4 * 1px);
+		padding-left: (41 * 0.4 * 1px);
+	}
+
+	.button__form {
+		font-size: 10px;
+		width: calc(481 * 0.4 * 1px);
+		height: calc(70 * 0.4 * 1px);
+		border-radius: calc(35 * 0.4 * 1px);
+		padding-left: (68 * 0.4 * 1px);
+	}
+
+	.header {
+		width: calc(1530 * 0.4 * 1px);
+		margin-bottom: calc(15 * 0.4 * 1px);
+
+		&__logo {
+			width: 100px;
+			margin-left: 10px;
+			margin-right: calc(44 * 0.4 * 1px);
+		}
+
+		&__official {
+			display: none;
+		}
+
+		&__map {
+			display: none;
+		}
+
+		&__contacts {
+			width: 160px;
+			font-size: 10px;
+			line-height: calc(21 * 0.4 * 1px);
+			margin-right: 20px;
+		}
+
+		&__contacts-title {
+			display: none;
+
+		}
+
+		a {
+			font-size: 9px;
+			margin-top: calc(17 * 0.4 * 1px);
+		}
+
+		&__over {
+			width: 100px;
+			margin-right: 20px;
+			font-size: 9px;
+			line-height: calc(21 * 0.4 * 1px);
+		}
+
+		&__img-phone,
+		&__img-clock {
+			width: calc(35 * 0.4 * 1px);
+			height: calc(35 * 0.4 * 1px);
+			margin-right: calc(11 * 0.4 * 1px);
+		}
+
+		&__img-phone img,
+		&__img-clock img {
+			width: calc(15 * 0.4 * 1px);
+			top: calc(50% - (15 * 0.052083 / 2 * 1vw));
+			left: calc(50% - (15 * 0.052083 / 2 * 1vw));
+		}
+
+		&__call {
+			display: none;
+		}
+
+		&__call::before {
+			display: none;
+		}
+
+		&__phone {
+			margin-bottom: calc(21 * 0.4 * 1px);
+		}
+
+		&__phone a {
+			font-size: calc(24 * 0.4 * 1px);
+			line-height: calc(18 * 0.4 * 1px);
+		}
+
+		&__clock {
+			font-size: calc(16 * 0.4 * 1px);
+			line-height: calc(21 * 0.4 * 1px);
+		}
+	}
+
+	.button__wrap {
+		width: calc(229 * 0.4 * 1px);
+		height: calc(62 * 0.4 * 1px);
+
+		img {
+			width: calc(20 * 0.4 * 1px);
+			top: calc(50% - (20 * 0.052083 / 2 * 1vw));
+			left: calc(26 * 0.4 * 1px);
+		}
+	}
+
+	.main {
+		width: calc(684 * 0.4 * 1px);
+		margin-left: 20px;
+
+		&__title {
+			font-size: 14px;
+			line-height: calc(53 * 0.4 * 1px);
+			margin-bottom: 10px;
+		}
+
+		&__list {
+			margin-bottom: 10px;
+		}
+
+		&__item {
+			font-size: 10.5px;
+			line-height: calc(36 * 0.4 * 1px);
+		}
+
+		&__item:before {
+			width: calc(30 * 0.4 * 1px);
+			height: calc(30 * 0.4 * 1px);
+			margin-right: calc(14 * 0.4 * 1px);
+			top: calc(10 * 0.4 * 1px);
+		}
+	}
+
+	.button__wrap-main {
+		width: 240px;
+		height: calc(86 * 0.4 * 1px);
+
+		img {
+			width: calc(209 * 0.4 * 1px);
+			top: calc(6 * 0.4 * 1px);
+		}
+	}
+
+	.popup {
+		top: calc(200 * 0.4 * 1px);
+		left: calc(50% - 200px);
+		width: 400px;
+		height: 280px;
+		padding-top: calc(75 * 0.4 * 1px);
+
+		&__title {
+			font-size: 14px;
+			margin-left: 120px;
+			margin-bottom: calc(23 * 0.4 * 1px);
+		}
+
+		&__subtitle {
+			width: 250px;
+			height: 30px;
+			font-size: 10px;
+			margin-left: calc(216 * 0.4 * 1px);
+			margin-bottom: 10px;
+		}
+
+		&__form {
+
+			p,
+			input {
+				width: calc(500 * 0.4 * 1px);
+				height: calc(80 * 0.4 * 1px);
+				border-radius: calc(40 * 0.4 * 1px);
+				margin-left: 100px;
+				margin-bottom: calc(16 * 0.4 * 1px);
+				padding-left: calc(46 * 0.4 * 1px);
+				font-size: 12px;
+				line-height: calc(24 * 0.4 * 1px);
+			}
+
+			select {
+				margin-top: calc(31 * 0.4 * 1px);
+				font-size: 12px;
+				line-height: calc(24 * 0.4 * 1px);
+			}
+		}
+
+		.button__wrap-form {
+			width: calc(494 * 0.4 * 1px);
+			height: calc(124 * 0.4 * 1px);
+			margin-left: 105px;
+
+			img {
+				width: calc(143 * 0.4 * 1px);
+				top: calc(9 * 0.4 * 1px);
+			}
+		}
+
+		.popup__close {
+			top: calc(46 * 0.4 * 1px);
+			right: calc(46 * 0.4 * 1px);
+		}
+	}
+
+	.popup__thank {
+		top: calc(300 * 0.4 * 1px);
+		left: calc(50% - (260 / 2 * 1px));
+		width: 260px;
+		height: calc(337 * 0.4 * 1px);
+		padding-top: calc(194 * 0.4 * 1px);
+		font-size: calc(30 * 0.4 * 1px);
+
+		.popup__close-thank {
+			top: calc(46 * 0.4 * 1px);
+			right: calc(46 * 0.4 * 1px);
+		}
+	}
+
+	.nav {
+		width: 500px;
+		height: 80px;
+		border-radius: calc(5 * 0.4 * 1px);
+		margin-bottom: 10px;
+
+		&__menu {
+			padding: 0 5px;
+			flex-wrap: wrap;
+			justify-content: space-around;
+		}
+
+		&__item {
+			margin: 0 10px;
+		}
+
+		&__link {
+			font-size: 12px;
+
+		}
+	}
+
+	.down {
+		width: calc(131 * 0.4 * 1px);
+		height: calc(131 * 0.4 * 1px);
+		top: calc(870 * 0.4 * 1px);
+		left: calc(50% - (131 * 0.4 / 2 * 1px));
+	}
+
+	.par__left {
+		width: calc(367 * 0.4 * 1px);
+		height: calc(340 * 0.4 * 1px);
+		left: calc(116 * 0.4 * 1px);
+		top: calc(272 * 0.4 * 1px);
+	}
+
+	.par__right {
+		width: calc(252 * 0.4 * 1px);
+		height: calc(264 * 0.4 * 1px);
+		right: calc(-105 * 0.4 * 1px);
+		top: calc(83 * 0.4 * 1px);
+	}
+
+	.round {
+		width: calc(84 * 0.4 * 1px);
+		height: calc(84 * 0.4 * 1px);
+		top: calc(739 * 0.4 * 1px);
+		left: 280px;
+	}
+
+	.hint {
+		top: calc(580 * 0.4 * 1px);
+		left: 290px;
+		width: calc(176 * 0.4 * 1px);
+		height: calc(210 * 0.4 * 1px);
+		padding: calc(34 * 0.4 * 1px) calc(27 * 0.4 * 1px) calc(29 * 0.4 * 1px) calc(27 * 0.4 * 1px);
+
+		div {
+			font-size: 10px;
+		}
+	}
+
+	.hint-map {
+		top: calc(150 * 0.4 * 1px);
+		left: calc(50% - (400 / 2 * 1px));
+		width: 400px;
+		height: 300px;
+	}
+
+	.promo {
+		width: 100%;
+		height: calc(1061 * 0.4 * 1px);
+		padding: calc(32 * 0.4 * 1px) 0 calc(182 * 0.4 * 1px) 0;
+	}
+
 }
-	

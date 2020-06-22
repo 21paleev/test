@@ -2160,6 +2160,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _modules_modals__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/modals */ "./src/js/modules/modals.js");
 /* harmony import */ var _modules_parallax__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./modules/parallax */ "./src/js/modules/parallax.js");
 /* harmony import */ var _modules_hint__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./modules/hint */ "./src/js/modules/hint.js");
+/* harmony import */ var _modules_hamburger__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./modules/hamburger */ "./src/js/modules/hamburger.js");
+
 
 
 
@@ -2171,6 +2173,7 @@ window.addEventListener('DOMContentLoaded', function () {
   Object(_modules_hint__WEBPACK_IMPORTED_MODULE_3__["default"])();
   Object(_modules_modals__WEBPACK_IMPORTED_MODULE_1__["default"])();
   Object(_modules_forms__WEBPACK_IMPORTED_MODULE_0__["default"])();
+  Object(_modules_hamburger__WEBPACK_IMPORTED_MODULE_4__["default"])();
 });
 
 /***/ }),
@@ -2257,6 +2260,44 @@ var forms = function forms() {
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (forms);
+
+/***/ }),
+
+/***/ "./src/js/modules/hamburger.js":
+/*!*************************************!*\
+  !*** ./src/js/modules/hamburger.js ***!
+  \*************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var core_js_modules_es_array_for_each__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! core-js/modules/es.array.for-each */ "./node_modules/core-js/modules/es.array.for-each.js");
+/* harmony import */ var core_js_modules_es_array_for_each__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_array_for_each__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var core_js_modules_web_dom_collections_for_each__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! core-js/modules/web.dom-collections.for-each */ "./node_modules/core-js/modules/web.dom-collections.for-each.js");
+/* harmony import */ var core_js_modules_web_dom_collections_for_each__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_web_dom_collections_for_each__WEBPACK_IMPORTED_MODULE_1__);
+
+
+
+//Боковое меню и гамбургер
+var hamburger = function hamburger() {
+  var menu = document.querySelector('.nav__menu'),
+      menuItem = document.querySelectorAll('.nav__item'),
+      hamburger = document.querySelector('.hamburger');
+  hamburger.addEventListener('click', function () {
+    console.log('hamburger');
+    hamburger.classList.toggle('hamburger_active');
+    menu.classList.toggle('nav__menu_active');
+  });
+  menuItem.forEach(function (item) {
+    item.addEventListener('click', function () {
+      hamburger.classList.toggle('hamburger_active');
+      menu.classList.toggle('nav__menu_active');
+    });
+  });
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (hamburger);
 
 /***/ }),
 
