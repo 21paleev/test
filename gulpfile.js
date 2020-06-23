@@ -125,3 +125,5 @@ gulp.task("prod-js", () => {
 gulp.task("build", gulp.parallel("html", "styles", "images", "js"));
 
 gulp.task("default", gulp.parallel("watch", "build"));
+
+gulp.task("build-p", gulp.parallel("html", "styles", "images", "prod-js"));

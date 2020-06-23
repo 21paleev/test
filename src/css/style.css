@@ -4555,10 +4555,10 @@ textarea:focus {
     line-height: 14px;
     font-weight: 700;
     padding: 20px 15px;
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(255, 203, 219, 0.8);
     border: none;
-    -webkit-transition: .6s all;
-    transition: .6s all;
+    -webkit-transition: 0.6s all;
+    transition: 0.6s all;
     min-height: 94vh;
   }
   .nav__menu_active {
@@ -4576,10 +4576,10 @@ textarea:focus {
     font-size: 14px;
     min-height: 7vh;
     padding-top: 2vh;
-    color: #fff;
+    color: #000;
   }
   .nav a:hover {
-    color: pink;
+    color: #c71585;
   }
   .nav .hamburger {
     position: absolute;
@@ -4596,8 +4596,8 @@ textarea:focus {
     height: 2px;
     background-color: #000;
     margin-bottom: 3px;
-    -webkit-transition: .6s all;
-    transition: .6s all;
+    -webkit-transition: 0.6s all;
+    transition: 0.6s all;
   }
   .nav .hamburger_active span {
     margin-bottom: -2px;
